@@ -1,0 +1,100 @@
+<!-- 导航 -->
+<nav-bar navbar-data='{{nvabarData}}'></nav-bar>
+
+
+<view class="container" style="margin-top:{{height-24}}px">
+<!-- 收货地址 -->
+<view class="address-shouhuo">
+<view class="address-shouhuo-box"> 
+  <view class="address-title">收货地址</view>
+  <view style="width:100%;height:1rpx;margin-bottom:43rpx;">
+    <view class="under-line-1" style="width:10%;background-color:#ffcb3f;height:100%;float:left"></view>
+    <view class="under-line-2" style="width:90%;background-color:#f2f2f2;height:100%;float:left"></view>
+  </view>
+  <view class="address-box">
+  <!-- 住宅 -->
+    <view class="address-zhuzhai-box">
+    <view class="address-zhuzhai">
+    住宅
+    </view>
+    <view class="address-zhuzhai-1">
+    山西省 太原市 小店区
+    </view>
+    </view>
+    <view class="address-position">杨家堡小区南4号楼401</view>
+    <view class="address-name">杨清 187351111111</view>
+  </view>
+  <view class="bottom-line">
+    <view style="width:5%;height:100%;background-color:#6d86d8;"></view>
+    <view style="width:5%;height:100%;background-color:#ef5f5f;"></view>
+    <view style="width:5%;height:100%;background-color:#6d86d8;"></view>
+    <view style="width:5%;height:100%;background-color:#ef5f5f;"></view>
+    <view style="width:5%;height:100%;background-color:#6d86d8;"></view>
+    <view style="width:5%;height:100%;background-color:#ef5f5f;"></view>
+    <view style="width:5%;height:100%;background-color:#6d86d8;"></view>
+    <view style="width:5%;height:100%;background-color:#ef5f5f;"></view>
+    <view style="width:5%;height:100%;background-color:#6d86d8;"></view>
+    <view style="width:5%;height:100%;background-color:#ef5f5f;"></view>
+  </view>
+</view>
+</view>
+<!-- 订单确认 -->
+<view class="address-shouhuo" style="margin-top:31rpx；">
+<view class="address-shouhuo-box" style="height:auto;padding-bottom:41rpx;">
+  <view class="orders-queren">订单确认</view>
+<view style="width:100%;height:1rpx;margin-bottom:43rpx;">
+    <view class="under-line-1" style="width:10%;background-color:#ffcb3f;height:100%;float:left"></view>
+    <view class="under-line-2" style="width:90%;background-color:#f2f2f2;height:100%;float:left"></view>
+  </view>
+
+  <view class="orders-shops">
+  <view class="orders-shop-every">
+  <view class="orders-shop-image"><image src=""></image></view>
+  <view class="orders-shop-eword">
+  <view style="font-size:18rpx;">BOSC XISTERA</view>
+  <view style="font-size: 24rpx;">现代客厅沙发</view>
+  <view style="font-size: 18rpx;line-height: 18rpx;">绿色/单人桌</view>
+  </view>
+  <view class="orders-shop-every-price"><view style="font-size:26rpx;letter-spacing: 3rpx;color: #000000;font-weight:850;display: inline-block;">520</view>RMB</view>
+  <view class="orders-shop-every-num">x2</view>
+  <view class="orders-shop-every-huo">有货</view>
+  </view>
+  </view>
+
+  <view class="orders-shop-total-price">
+    <view style="letter-spacing: 2rpx;color: #000000;	font-size: 24rpx;line-height:36rpx;">商品总价</view>
+    <view style="font-size:24rpx;letter-spacing: 2rpx;color: #000000;line-height:36rpx;">1040<view style="font-size: 18rpx;display:inline-block">RMB</view></view>
+  </view>
+
+  <view class="orders-shop-total-price" style="margin-top:44rpx">
+    <view style="letter-spacing: 2rpx;color: #000000;	font-size: 24rpx;line-height:36rpx;">运费</view>
+    <view style="letter-spacing: 2rpx;color: #000000;	font-size: 24rpx;line-height:36rpx;">包邮</view>
+  </view>
+
+  <view class="orders-shop-total-price" style="margin-top:44rpx;border:0">
+    <view style="letter-spacing: 2rpx;color: #000000;	font-size: 24rpx;line-height:36rpx;">备注</view>
+    <view style="flex:1">
+      <view class="beizhu" style="display:flex;align-items:center;position:relative"><input placeholder="限45个字（请将购买需求在备注中做详细说明" placeholder-style="font-size:18rpx;" style="position:absolute;left:96rpx;top:-3rpx;font-size:18rpx;width:406rpx"></input></view>
+    </view>
+  </view>
+</view>
+</view>
+
+<!-- 发票信息 -->
+<view class="address-shouhuo" style="margin-top:31rpx；">
+<view class="address-shouhuo-box" style="height:auto;padding-bottom:41rpx;">
+<view class="orders-queren">发票信息</view>
+<view style="width:100%;height:1px;margin-bottom:43rpx;">
+    <view class="under-line-1" style="width:10%;background-color:#ffcb3f;height:100%;float:left"></view>
+    <view class="under-line-2" style="width:90%;background-color:#f2f2f2;height:100%;float:left"></view>
+  </view>
+  <view class="orders-queren">不开发票</view>
+</view>
+</view>
+
+<!-- 去支付 -->
+<view class="orders-jiesuan">
+  <view class="orders-totalprice">付款 <view style="font-size: 26rpx;letter-spacing: 3rpx;color: #ffcb3f;font-weight:850;display:inline-block">1040</view> <view style="letter-spacing: 2rpx;color: #000000;font-size: 18rpx;display:inline-block">RMB</view> </view>
+  <view class="orders-quzhifu">去支付</view>
+</view>
+</view>

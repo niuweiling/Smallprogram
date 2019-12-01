@@ -1,0 +1,63 @@
+<!--pages/category/category.wxml-->
+<view class="top">
+ <view class="search">
+ <image src="../../image/search3.png" >
+ </image>
+ <input class="search-title">
+ 搜索店内精品
+ </input>
+ </view>
+</view>
+
+ 
+ <!-- 主体部分开始 -->
+ <view class="main">
+ <!-- 左边部分 -->
+<view class="main-left" >
+<view class="left-item {{type==item.id?'active':''}}"   wx:for="{{cateleft}}" wx:key="item.id" 
+bindtap="change" data-id="{{item.id}}"
+>
+
+{{item.cname}}
+</view>
+
+
+</view>
+
+<!-- 右边部分 -->
+<view class="main-right" wx:for="{{cateGoods}}" wx:key="*this">
+
+<view class="imgbox" >
+ <image src="{{item.thumb}}" >
+ </image>
+</view>
+
+<!-- 商品分类信息 -->
+<view class="goodslist" >
+
+<view class="goodsname">
+<!-- 全部商品 -->
+<picker class="goods-cname">{{item.cname}}</picker>
+
+</view>
+
+<view class="goods-item" wx:for="{{item.goods}}" wx:key="*this">
+
+<navigator open-type="redirectTo"
+url="../goodsdetail/goodsdetail?id={{item.id}}"
+ class="goodsimg">
+<image src="{{item.gthumb}}">
+</image>
+</navigator>
+
+<view class="goods-name">
+{{item.gname}}
+</view>
+</view>
+
+
+</view>
+
+</view>
+ 
+ </view>

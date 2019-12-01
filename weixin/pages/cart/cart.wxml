@@ -1,0 +1,50 @@
+<view class="body" style="background-color:white">
+<!-- 购物车 -->
+  <view class="cart" wx:for="{{cateGoods}}" wx:key="*this">
+  <!-- 商品信息 -->
+    <view class="item">
+    <!-- 左 -->
+      <view class="left">
+        <view class="dot">
+          <view class="dot-sel"></view>
+        </view>
+        <view class="detail">
+        <view >
+          <navigator class="del" >
+            <view class="tu" >
+              <image src="{{item.gthumb}}"></image>
+            </view>
+          </navigator>
+          </view>
+          <view class="text">
+            <navigator>
+              <view class="name">{{item.gname}}</view>
+            </navigator>
+            <view class="money">￥{{item.sale}}</view>
+          </view>
+        </view>
+      </view>
+      <!-- 右 -->
+      <view class="right">
+        <view class="plus">-</view>
+        <view class="num">{{item.num}}</view>
+        <view class="add">+</view>
+      </view>
+    </view>
+  </view>
+  <!-- 底部 -->
+  <view class='footer' wx:for="{{cateGoods}}" wx:key="*this">
+    <view class="foot-left">
+      <view class="select">
+        <view class="dot-sel"></view>
+      </view>
+      <view class="all">全选</view>
+      <view class="sum">合计：</view>
+      <view class="">￥150.00</view>
+    </view>
+    <navigator class="gopay">
+      <view class="foot-right">去结算</view>
+    </navigator>
+    
+  </view>
+</view>

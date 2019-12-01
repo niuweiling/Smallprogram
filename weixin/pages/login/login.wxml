@@ -1,0 +1,9 @@
+<!--pages/login/login.wxml-->
+<view class="bj">
+<image src="../../image/timg.jpg">
+
+</image>
+</view>
+
+
+<button type="primary" open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo" loading="true">微信授权</button>

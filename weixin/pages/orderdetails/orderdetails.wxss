@@ -1,0 +1,177 @@
+/* pages/orderdetails/orderdetails.wxss */
+page{
+   background:#f6f6f6;
+}
+.address-shouhuo{
+  padding: 0 32rpx;
+  box-sizing: border-box;
+  margin-bottom: 34rpx;
+}
+.address-shouhuo-box{
+  padding: 27rpx 33rpx 0 31rpx;
+  box-sizing: border-box;
+	height: 273rpx;
+	background-color: #ffffff;
+	box-shadow: -1rpx 5rpx 5rpx 0rpx 
+		rgba(118, 118, 118, 0.17);
+	border-radius: 10rpx;
+  position: relative;
+}
+.address-title{
+  font-size: 28rpx;
+  color: #000;
+  letter-spacing: 3rpx;
+  line-height: 36rpx;
+  margin-bottom: 19rpx;
+}
+.address-zhuzhai-box{
+  width: 100%;
+  height: 33rpx;
+  overflow: hidden;
+}
+.address-zhuzhai{
+  width: 55rpx;
+  height: 100%;
+float: left;
+line-height: 36rpx;
+	letter-spacing: 2rpx;
+	color: #ffffff;
+  text-align: center;
+	background-color: #ffcb3f;
+	border-radius: 4rpx;
+ font-size: 18rpx;
+}
+.address-zhuzhai-1{
+  float: left;
+  font-size: 22rpx;
+  color: #000000;
+  letter-spacing: 2rpx;
+  line-height: 36rpx;
+  padding-left:15rpx;
+  box-sizing: border-box;
+}
+.address-position{
+  	height: 24rpx;
+    font-size: 24rpx;
+    line-height: 36rpx;
+    letter-spacing: 2rpx;
+	color: #000000;
+  margin-top: 12rpx;
+  margin-bottom: 14rpx;
+}
+.address-name{
+line-height: 36rpx;
+	letter-spacing: 2rpx;
+	color: #000000;
+  height: 36rpx;
+  font-size: 22rpx;
+}
+.bottom-line{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3rpx;
+  display: flex;
+  justify-content: space-between;
+}
+/* 订单确认开始 */
+.orders-queren{
+  height: 36rpx;
+  line-height: 36rpx;
+	letter-spacing: 3rpx;
+	color: #000000;
+  font-size: 28rpx;
+  margin-bottom: 20rpx;
+}
+.orders-shops{
+  width: 100%;
+}
+.orders-shop-every{
+  
+  height: 85rpx;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 41rpx;
+}
+.orders-shop-image{
+	width: 102rpx;
+	height: 100%;
+ 
+}
+.orders-shop-image image{
+  width: 100%;
+  height: 100%;
+}
+.orders-shop-eword{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 156rpx;
+  height: 100%;
+}
+.orders-shop-every-price{
+  width: 97rpx;
+  height: 100%;
+  line-height: 85rpx;
+  text-align: center;
+  font-size: 18rpx;
+  letter-spacing: 2rpx;
+}
+.orders-shop-every-num{
+letter-spacing: 2rpx;
+	color: #000000;
+  font-size: 24rpx;
+  text-align: center;
+  line-height: 85rpx;
+  height: 100%;
+}
+.orders-shop-every-huo{
+  	font-size: 24rpx;
+    line-height: 85rpx;
+    height: 100%;
+}
+.orders-shop-total-price{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px #d9d9d9;
+  height: 36rpx;
+}
+.beizhu{
+  margin: 0 auto;
+  	width: 525rpx;
+	height: 100%;
+	border: solid 1rpx #bfbfbf;
+}
+.aaa{
+font-size: 18px;
+}
+.orders-jiesuan{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+	height: 90rpx;
+	background-color: #ffffff;
+	border: solid 1px #e5e5e5;
+}
+.orders-totalprice{
+  line-height: 90rpx;
+  	font-size: 24rpx;
+    letter-spacing: 2rpx;
+    margin-left: 24rpx;
+}
+.orders-quzhifu{
+  	width: 212rpx;
+	height: 90rpx;
+	box-shadow: 0px 2px 7px 0px 
+		rgba(224, 163, 0, 0.45);
+	border-radius: 4px;
+  background-color: #ffcb3f;
+  line-height: 90rpx;
+  text-align: center;
+  color: #fff;
+}

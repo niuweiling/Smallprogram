@@ -1,0 +1,144 @@
+<view class="header">
+  <view class="header-left">
+     <view class="touxiang" >
+     <image src="../../image/头像.jpg"></image>
+     </view>
+     </view>
+     <view class="header-right">
+       <view class="header-zi">
+        <picker class="zi-1">Hwwex_WL</picker>
+        <picker class="zi-2">成长值>></picker>
+        <view class="zi-3">
+          <image src="../../image/lines.png"></image>
+        </view>
+       </view>
+   </view>
+</view>
+
+<!-- 第一个盒子 我的工具开始 -->
+  <view class="car-1">
+    <view class="car1-box">
+       <picker class="car1-nums">36</picker>
+       <picker class="car1-zi">商品关注</picker>
+    </view>
+    <view class="car1-box">
+       <picker class="car1-nums">24</picker>
+       <picker class="car1-zi">店铺关注</picker>
+    </view>
+    <view class="car1-box">
+       <picker class="car1-nums">13</picker>
+       <picker class="car1-zi">优惠券</picker>
+    </view>
+    <view class="car1-box">
+       <picker class="car1-nums">1145</picker>
+       <picker class="car1-zi">浏览记录</picker>
+    </view>
+
+  </view>
+
+<!-- 第二个盒子 我的工具开始 -->
+<view class="bj">
+ <view class="car-2">
+   <view class="car2-top">
+     <view class="car2-left">我的订单</view>
+
+     <navigator url="../indent/indent?title=indent" open-type="redirect" hover-class="other-navigator-hover">
+        <view class="car2-right">查看全部订单 ></view>
+     
+     </navigator>
+  
+     <view class="car2-btm">
+      <view class="car2-1">
+        <view class="car2-img">
+          <image src="../../image/代付款.png"></image>
+        </view>
+        <picker class="car2-zi">待付款</picker>
+      </view> 
+      <view class="car2-1">
+        <view class="car2-img">
+          <image src="../../image/待发货.png"></image>
+        </view>
+        <picker class="car2-zi">待发货</picker>
+      </view> 
+      <view class="car2-1">
+        <view class="car2-img">
+          <image src="../../image/待收货.png"></image>
+        </view>
+        <picker class="car2-zi">待收货</picker>
+      </view> 
+      <view class="car2-1">
+        <view class="car2-img">
+          <image src="../../image/待评价.png"></image>
+        </view>
+        <picker class="car2-zi">待评价</picker>
+      </view> 
+    </view>
+   </view>
+ </view>
+
+<!-- 第三个盒子 我的工具开始 -->
+ <view class="car-3">
+   <view class="car2-top">
+     <view class="car2-left">我的工具</view>
+     <view class="car2-right"></view>
+     <view class="car2-btm">
+      <view class="car2-1">
+        <view class="car2-imgs">
+          <image src="../../image/优惠券.png"></image>
+        </view>
+        <picker class="car2-zi">优惠券</picker>
+      </view> 
+      <view class="car2-1">
+        <view class="car2-imgs">
+          <image src="../../image/评价.png"></image>
+        </view>
+        <picker class="car2-zi">我的评价</picker>
+      </view> 
+      <view class="car2-1">
+        <view class="car2-imgs">
+          <image src="../../image/收藏.png"></image>
+        </view>
+        <picker class="car2-zi">我的收藏</picker>
+      </view> 
+      <view class="car2-1">
+        <view class="car2-imgs">
+          <image src="../../image/商品.png"></image>
+        </view>
+        <picker class="car2-zi">所有商品</picker>
+      </view> 
+    </view>
+
+<view class="car2-btm2">
+      <view class="car2-1">
+        <view class="car2-imgs">
+          <image src="../../image/地址管理.png"></image>
+        </view>
+        <picker class="car2-zi">地址管理</picker>
+      </view> 
+      <view class="car2-1">
+        <view class="car2-imgs">
+          <image src="../../image/联系我们.png"></image>
+        </view>
+        <picker class="car2-zi">联系我们</picker>
+      </view> 
+      <view class="car2-1">
+        <view class="car2-imgs">
+          <image src="../../image/投诉提问.png"></image>
+        </view>
+        <picker class="car2-zi">我的建议</picker>
+      </view> 
+         <view class="car2-1">
+        <view class="car2-imgs">
+          <!-- <image src="../../image/投诉提问.png"></image> -->
+        </view>
+        <picker class="car2-zi"></picker>
+      </view> 
+    </view>
+
+
+
+   </view>
+ </view>
+</view>
+
+

@@ -1,0 +1,128 @@
+/* pages/category/category.wxss */
+.top{ 
+  height: 88rpx;
+  width: 100%;
+  padding: 14rpx 0;
+  box-sizing: border-box;
+  background: rgb(255,255,255);
+  box-shadow:rgb(218, 217, 217) 
+}
+.search{
+  margin:0 auto;
+  color: rgba(0,0,0,0.5);
+  width: 604rpx;
+  height: 60rpx;
+  text-align: start;
+ line-height: 24rpx;
+  border-radius: 30rpx;
+  font-size: 24rpx;
+  border: 1rpx solid rgb(217,217,217);
+  position: relative;
+}
+.search image{
+  width: 24rpx;
+  height: 24rpx;
+  margin: 19rpx;
+  display: inline-block;
+}
+.search>.search-title{
+  display: inline-block;
+  position: absolute;
+  top:0rpx;
+  left: 52rpx;
+}
+.main{
+  position: relative;
+  width: 100%;
+  min-height: 980rpx;
+}
+.main-left{
+  width: 200rpx;
+  min-height: 980rpx;
+  background: rgba(247, 247, 247, 0.9);
+}
+.left-item{
+  width: 100%;
+  height: 104rpx;
+  margin-bottom: 6rpx;
+  background: rgb(243, 243, 243);
+  text-align: center;
+  line-height: 104rpx;
+  font-size: 26rpx;
+  color: rgb(0,0,0);
+}
+
+.main>.main-right{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 200rpx;
+  right: 0;
+  padding: 0rpx 15rpx 24rpx 21rpx;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+.main-right>.imgbox{
+ /* margin-right: 24rpx; */
+  width: 490rpx;
+  height: 191rpx;
+}
+.imgbox image{
+  width: 100%;
+  height: 100%;
+}
+.main-right>.goodslist{
+  width: 512rpx;
+}
+.goodsname{
+  width: 100%;
+  height: 55rpx;
+  line-height: 55rpx;
+  text-align: center;
+  
+}
+.goods-cname{
+  width: 100%;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  /* margin-bottom: 60rpx; */
+}
+.goodslist>.goods-item{
+  margin-top: 30rpx;
+  float: left;
+  width: 33.333%;
+  height: 199rpx;
+  padding: 6rpx 0rpx 18rpx 5rpx;
+  box-sizing: border-box;
+}
+.goodsimg{
+  width: 150rpx;
+  height: 142rpx;
+
+}
+.goodsimg image{
+  width: 100%;
+  height: 100%;
+
+}
+.goods-name{
+  margin-top: 14rpx;
+  text-align: center;
+  font-size: 22rpx;
+  color: rgb(0,0,0);
+}
+input{
+  margin-top: 10rpx;
+}
+	/*选中状态*/
+.active{
+		width: 6rpx;
+		height: 102rpx;
+		position: absolute;
+		left: 0;
+		top: 1rpx;
+		background: rgba(205, 6, 29, 0.78);
+	}

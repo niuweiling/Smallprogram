@@ -1,0 +1,35 @@
+<!--pages/indent/indent.wxml-->
+<view class="indent">
+<!-- 头部 -->
+  <view class="header">
+    <image src="/image/left.png"></image>
+    <view class="title">我的订单</view>
+  </view>
+  <!-- 导航标签栏 -->
+  <view class="nav">
+    <view class="nav-list">
+      <view class="list-item">全部</view>
+      <view class="list-item">待付款</view>
+      <view class="list-item">待发货</view>
+      <view class="list-item">待收货</view>
+      <view class="list-item">待评价</view>
+    </view>
+  </view>
+  <!-- 订单商品 -->
+  <view class="goods">
+    <view class="goods-list">
+      <view class="img">
+        <image src="/image/cate1.png"></image>
+      </view>
+      <view class="main">
+        <view class="name">BOSC Xistera现代客厅沙发   </view>
+        <view class="time">2019-03-20</view>
+      </view>
+      <view class="right">
+        <view class="price">￥520*2</view>
+        <view class="total">1040RMB</view>
+        <view class="status">待付款</view>
+      </view>
+    </view>
+  </view>
+</view>

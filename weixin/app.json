@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/category/category",
+    "pages/cart/cart",
+    "pages/my/my",
+    "pages/indent/indent",
+    "pages/goodsdetail/goodsdetail",
+    "pages/orderdetails/orderdetails",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f0d8e6",
+    "navigationBarTitleText": "柒家小铺",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#ffbc3f",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "font-size": "24rpx",
+        "iconPath": "image/home2.png",
+        "selectedIconPath": "image/home.png"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "text": "分类",
+        "iconPath": "image/search3.png",
+        "selectedIconPath": "image/search2.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "image/shop-cart1.png",
+        "selectedIconPath": "image/shop-cart2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "image/people1.png",
+        "selectedIconPath": "image/people2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

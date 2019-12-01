@@ -1,0 +1,189 @@
+<!--index.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
+
+
+<!-- 头部导航开始 -->
+<view class="box">
+<view class="list">产品分类</view>
+<view class="list">案例展示</view>
+<view class="list">设计团队</view>
+<view class="list">品牌故事</view>
+</view>
+<view class="bj">
+   <view >
+      <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item class="banner">
+            <image src="{{item}}"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+<!-- 头部导航结束 -->
+<!-- 新品首发开始 -->
+<view class="text">
+<view class="text-zi">
+   <image class="title" src="../../image/title3.png"></image>
+</view>
+</view>
+
+<view class="tupian"  wx:for="{{cateGoods}}" wx:key="*this">
+<view class="cname-box">
+<picker class="cname1">{{item.cname}}</picker>
+<picker class="cname2">更多></picker>
+</view>
+
+ <view class="ttt">
+   <view class="tu"  wx:for="{{item.goods}}" wx:key="*this">
+    
+
+        <view class="tu-box">
+           <image src="{{item.gthumb}}"></image>
+        </view>
+   <view class="tu-zi">
+       <picker class="wenzi-1">销量：{{item.stock}}</picker>
+        <view class="wenzi">品牌：{{item.gname}}</view>
+          <view class="dibu">
+            <view class="price">￥{{item.mprice}}</view>
+              <navigator  url="">
+                <image class="btn1" src="../../image/click.png"></image>
+              </navigator>
+            </view>
+          </view>
+      
+  </view>
+ 
+ 
+ </view>
+
+</view>
+<!-- 新品首发结束 -->
+
+<!-- 热销产品开始 -->
+<view class="text">
+<view class="text-zi">
+ <image class="title" src="../../image/title4.png"></image>
+</view>
+</view>
+
+<view class="chanping">
+<view class="chanping-tu">
+<image src="../../image/优-大.jpg"></image>
+</view>
+<view class="cp">
+<view class="cp-left">
+<picker class="text-1">柠檬多多———口感酸甜</picker>
+<picker class="text-2">促销热卖  买一送一</picker>
+<picker class="text-3">68RMB</picker>
+<picker class="text-4">Lemen</picker>
+</view>
+<view class="cp-right">
+<view class="yuan1"></view>
+<view class="yuan2"></view>
+<view class="yuan3"></view>
+</view>
+</view>
+</view>
+<!--  -->
+<!-- 现代沙发 -->
+<view class="capian-box">
+<view class="capian">
+<picker class="capian-en">50RMB</picker>
+<picker class="capian-zi">苹果多多  等你来选</picker>
+<view class="capian-tu">
+<image src="../../image/p.png"></image>
+</view>
+<picker class="capian-rmb">50RMB</picker>
+<picker class="capian-mai">Fruit</picker>
+</view>
+
+
+<view class="capian">
+<picker class="capian-en">41RMB</picker>
+<picker class="capian-zi">柠檬酸酸甜甜</picker>
+<view class="capian-tu">
+<image src="../../image/n.png"></image>
+</view>
+<picker class="capian-rmb">41RMB</picker>
+<picker class="capian-mai">BHSDDS</picker>
+</view>
+</view>
+<!-- 沙发结束 -->
+
+<!-- 现代沙发 -->
+<view class="capian-box">
+<view class="capian">
+<picker class="capian-en">48RMB</picker>
+<picker class="capian-zi">水果之王猕猴桃</picker>
+<view class="capian-tu">
+<image src="../../image/m.png"></image>
+</view>
+<picker class="capian-rmb">48RMB</picker>
+<picker class="capian-mai">Msdj</picker>
+</view>
+
+
+<view class="capian">
+<picker class="capian-en">75RMB</picker>
+<picker class="capian-zi">养胃粥到</picker>
+<view class="capian-tu">
+<image src="../../image/y.png"></image>
+</view>
+<picker class="capian-rmb">75RMB</picker>
+<picker class="capian-mai">BHSDDS</picker>
+</view>
+</view>
+<!-- 沙发结束 -->
+<view class="line">
+<image src="../../image/line.png"></image>
+</view>
+<!-- 热销产品开始 -->
+<view class="text">
+<view class="text-zi">
+<image class="title" src="../../image/title1.png"></image>
+</view>
+</view>
+<!--  -->
+<!-- 视频 -->
+
+<view class="vido">
+<image src="../../image/品2.jpg"></image>
+</view>
+<!--  -->
+
+<view class="cp-left">
+<picker class="text-11">芒果干特卖 快来选购</picker>
+<picker class="text-22">夏天更美味，果肉丰满，甜美多汁，芒果干熟了</picker>
+
+
+
+
+<view class="liaojie">了解更多</view>
+</view>
+
+
+<view class="text">
+<view class="text-zi">
+<image class="title" src="../../image/title2.png"></image>
+</view>
+</view>
+
+</view>
+
+
+<view class="last">
+<image src="../../image/休-大.jpg"></image>
+</view>
+

@@ -1,0 +1,144 @@
+<!--pages/goodsdetail/goodsdetail.wxml-->
+<view class="top">
+<view class="top-1"> 
+商品详情
+</view>
+
+<view class="top-2">
+商品评论
+</view>
+</view>
+
+<!-- 商品详情部分 -->
+<view class="main">
+<view class="main-box">
+    <swiper class="imgbox" indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+         <block  wx:for="{{bannerimg}}" wx:key="*this">
+       <swiper-item  >
+            <image src="{{item}}"></image>
+      </swiper-item>
+        </block>
+    </swiper>
+</view>
+
+<!-- 商品介绍 -->
+<view class="goodsbox" wx:for="{{goodsdetail}}" wx:key="item.id">
+   <view class="goodstitle">
+     {{item.gname}}
+    </view>
+ <view class="goodsline">
+<view class="lineselect">
+</view>
+</view>
+
+<view class="detail" wx:for="{{goodsdetail}}" wx:key="item.id">
+    <view class="sort">
+       <picker >
+             规格: {{item.norms}}
+       </picker>
+       <picker >
+        价格：{{item.mprice}}
+        </picker>
+        <!-- <picker>{{item.mprice}}</picker> -->
+        <picker>品牌：{{item.brand}}</picker>
+    </view>
+
+<!-- <view class="sort" wx:for="{{goodsdetail}}" wx:key="item.id">
+      <view class="sort-title">
+         种类:{{item.mprice}}
+      </view>
+      <view class="sort-text">
+        现代客厅单人沙发{{item.brand}}
+ </view>
+</view> -->
+
+
+
+
+</view>
+<view class="goodsline">
+<view class="lineselect">
+</view>
+</view>
+
+
+<view class="sale">
+       <view class="saletext">
+         {{item.mprice}}RMB
+       </view>
+       <view class="num"> 
+        <view class="numtext">
+             库存：{{item.stock}}
+         </view>
+       <!-- <view class="numbtn">
+   <button class="num-btn sub" type="default" size="{{defaultSize}}">
+     -
+  </button>
+   <view class="num-0">
+       2
+    </view>
+
+   <button class="num-btn add" >
+    +
+   </button>
+</view> -->
+
+<!-- <view class="jisuan">
+<button class="dec" size="1">-</button>
+<view class="num">2</view>
+<button class="add" size="1">+</button>
+</view> -->
+
+
+</view>
+</view>
+
+<view class="goodsline">
+<view class="lineselect">
+</view>
+</view>
+</view>
+
+<view class="banner" >
+<view class="banner-title">
+<image src="../../image/商品详情.png">
+</image>
+</view>
+<view class="banner-1" wx:for="{{detailimg}}" wx:key="item.id">
+<image src="{{item}}">
+</image>
+</view>
+
+<!-- <view class="banner-2">
+<image src="{{item}}">
+</image>
+</view> -->
+
+<!-- <view class="banner-title">
+<image src="../../image/服务.png">
+</image>
+</view> -->
+
+<!-- <view class="banner-end">
+<image src="../../image/保障.png">
+</image>
+</view> -->
+</view>
+</view>
+
+<view class="goshop">
+<view class="shoucang">
+</view>
+<navigator >
+<view class="car" bindtap="addCart">
+加入购物车
+</view>
+
+</navigator>
+
+
+<view class="car shopcar">
+立即购买
+</view>
+</view>
